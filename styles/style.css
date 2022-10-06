@@ -1,0 +1,76 @@
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+  }
+*{
+    
+margin: 0;
+}
+.logo {
+    margin: -.5% 0 0 0;
+}
+.upper-part{
+    color: var(--light-purple);
+    background-color: var(--purple-bg);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+}
+
+.header-nav {
+    width: 60%;
+    margin:0 0 0 15%;
+}
+.header-nav span{
+    display: column;
+    margin: 0 0 0 9%
+}
+.header-nav :hover{
+    font-weight: 550;
+    border-left: 1px solid #4fff4b;
+    border-radius: 1px;
+    cursor: pointer;
+}
+header{
+    margin: 4% 0 0 3%;
+    display: flex;
+    
+}
+.search{
+    width: fit-content;
+    display: flex;
+    position: fixed;
+    top: 8.5%;
+    right: 7%;
+    padding: 0 0 0 0;
+    color: var(--light-purple);    
+    padding: 0 0 0 10px;
+}
+.search input{
+    position: relative;
+    color: var(--light-purple);
+    padding: 0 0 0 10%;
+    height: 30px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: var(--dark-bg);
+    border-style: none;
+}
+header label{
+    height: 30px;
+    width: 100px;
+    border-radius: 6px;
+    margin: 0  0 0-.8rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--button-bg);
+}
+header label img{
+    justify-content: center;
+    height: 35px;
+}
